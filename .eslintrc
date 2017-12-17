@@ -13,6 +13,7 @@
     "comma-dangle": "off",
     "global-require": "off",
     "import/prefer-default-export": "off",
+    "no-param-reassign": "off",
     "react/prefer-stateless-function": "off",
     "class-methods-use-this": "warn",
     "max-len": "warn",
