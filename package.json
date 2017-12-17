@@ -1,0 +1,26 @@
+{
+  "name": "react-pluggable-example",
+  "version": "1.0.0",
+  "description": "An example to demonstrate how to implement simple pluggable mechanism in a React project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicCube/react-pluggable-example.git"
+  },
+  "keywords": [
+    "react",
+    "plugin",
+    "pluggable",
+    "extension",
+    "extensible"
+  ],
+  "author": "Henry Li <henry1943@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MagicCube/react-pluggable-example/issues"
+  },
+  "homepage": "https://github.com/MagicCube/react-pluggable-example#readme"
+}
