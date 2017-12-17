@@ -11,7 +11,7 @@ const ASSETS_PUBLIC_PATH = '/assets/';
 module.exports = {
   context: SRC_PATH,
   entry: {
-    im: ['./im'], // im 是 Instant Messenger 的缩写
+    app: './',
     vendor: './vendor',
   },
   resolve: {
