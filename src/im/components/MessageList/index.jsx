@@ -7,7 +7,13 @@ import styles from './index.less';
 export default class MessageList extends PureComponent {
   static propTypes = {
     messages: PropTypes.arrayOf(PropTypes.shape({
-      id: PropTypes.number
+      id: PropTypes.number,
+      header: PropTypes.shape({
+        sender: PropTypes.shape({
+          name: PropTypes.string,
+          avatarUrl: PropTypes.string
+        })
+      })
     }))
   }
 
@@ -18,10 +24,22 @@ export default class MessageList extends PureComponent {
   renderMessages() {
     const { messages } = this.props;
     return messages.map((message) => {
+      const {
+        id,
+        header: {
+          sender
+        }
+      } = message;
       const messageType = message.type;
       const Message = getPluginClass('message', messageType);
       return (
-        <Message key={message.id} {...message.body} />
+        <li key={id}>
+          <div className={styles.avatar} style={{ backgroundImage: `url(${sender.avatarUrl})` }} />
+          <div className={styles.messageBox}>
+            <div className={styles.senderName}>{sender.name}</div>
+            <Message messageId={message.id} {...message.body} />
+          </div>
+        </li>
       );
     });
   }
