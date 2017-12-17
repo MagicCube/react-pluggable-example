@@ -1,0 +1,33 @@
+@import '../../../variables.less';
+
+.container {
+  width: 100%;
+  height: 100%;
+  color: @textColor;
+  text-decoration: none;
+}
+
+.details {
+  display: flex;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.description {
+  display: -webkit-box;
+  overflow: hidden;
+  width: @messageMaxWidth - 92px;
+  color: @lightTextColor;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.thumbnail {
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
