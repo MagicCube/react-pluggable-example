@@ -1,0 +1,45 @@
+{
+  "sessionId": "19840301",
+  "messages": [
+    {
+      "id": 1984030100001,
+      "header": {
+        "type": "text",
+        "from": "Henry",
+        "sentTime": 1513509380347
+      },
+      "body": {
+        "text": "您好，欢迎关注前端零栈！"
+      }
+    },
+    {
+      "id": 1984030100002,
+      "header": {
+        "type": "picture",
+        "from": "Henry",
+        "sentTime": 1513509422555
+      },
+      "body": {
+        "imageUrl": "https://pic5.zhimg.com/v2-2650d71247f20abf3600247d58cc6b9e_r.jpg",
+        "thumbnailUrl": "https://pic5.zhimg.com/v2-2650d71247f20abf3600247d58cc6b9e_400x224.jpg"
+      }
+    },
+    {
+      "id": 1984030100003,
+      "header": {
+        "type": "card",
+        "from": "Henry",
+        "sentTime": 1513509528443
+      },
+      "body": {
+        "code": "com.example.plugins.cards.WebLinkCard",
+        "content": {
+          "title": "为什么我们要做三份 Webpack 配置文件",
+          "description": "在知乎上我们常常会看到有同学发问：BAT 等大型网站的前端工程是如何组织管理的？这的确是一个可以发散的很广的 Q&A，我想如果要我回答这个问题，不如先从 Webpack 配置说起。",
+          "thumbnailUrl": "https://pic4.zhimg.com/v2-428e325a87d01d02923ad2ed4c3e785a_400x224.jpg",
+          "href": "https://zhuanlan.zhihu.com/p/29161762"
+        }
+      }
+    }
+  ]
+}
