@@ -1,9 +1,9 @@
 @import './variables.less';
 
-.message() {
+.message(@backgroundColor: @messageBackgroundColor, @padding: @messagePadding) {
   max-width: @messageMaxWidth;
-  padding: 14px;
-  background: @messageBackgroundColor;
+  padding: @padding;
+  background: @backgroundColor;
   border: 1px solid @borderColor;
   border-radius: 6px;
   overflow: hidden;
