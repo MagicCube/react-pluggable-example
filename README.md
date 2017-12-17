@@ -20,4 +20,4 @@ The built assets will be put in the 'assets' folder.
 
 ## Screenshot
 
-![](https://github.com/MagicCube/react-pluggable-example/blob/master/screen.png?raw=true)
+![](https://github.com/MagicCube/react-pluggable-example/blob/master/screenshot.png?raw=true)
