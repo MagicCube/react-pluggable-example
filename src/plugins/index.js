@@ -1,1 +1,2 @@
+import './cards';
 import './messages';
