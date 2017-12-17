@@ -4,7 +4,8 @@
   "description": "An example to demonstrate how to implement simple pluggable mechanism in a React project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --config webpack.dev.config.js"
   },
   "repository": {
     "type": "git",
@@ -26,12 +27,14 @@
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "css-loader": "^0.28.7",
     "eslint": "^4.13.1",
     "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^1.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
