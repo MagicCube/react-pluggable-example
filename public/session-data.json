@@ -3,8 +3,8 @@
   "messages": [
     {
       "id": 1984030100001,
+      "type": "text",
       "header": {
-        "type": "text",
         "from": "Henry",
         "sentTime": 1513509380347
       },
@@ -14,8 +14,8 @@
     },
     {
       "id": 1984030100002,
+      "type": "image",
       "header": {
-        "type": "picture",
         "from": "Henry",
         "sentTime": 1513509422555
       },
@@ -26,13 +26,13 @@
     },
     {
       "id": 1984030100003,
+      "type": "card",
       "header": {
-        "type": "card",
         "from": "Henry",
         "sentTime": 1513509528443
       },
       "body": {
-        "code": "com.example.plugins.cards.WebLinkCard",
+        "cardType": "com.example.plugins.cards.WebLinkCard",
         "content": {
           "title": "为什么我们要做三份 Webpack 配置文件",
           "description": "在知乎上我们常常会看到有同学发问：BAT 等大型网站的前端工程是如何组织管理的？这的确是一个可以发散的很广的 Q&A，我想如果要我回答这个问题，不如先从 Webpack 配置说起。",
