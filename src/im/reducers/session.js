@@ -3,6 +3,7 @@ import { handleActions } from 'redux-actions';
 import actions from '../actions/session';
 
 const initialStates = {
+  messages: [],
   error: null
 };
 
