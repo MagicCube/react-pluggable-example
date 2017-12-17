@@ -48,6 +48,9 @@ typings/
 # Optional REPL history
 .node_repl_history
 
+# Optional package-lock.json
+package-lock.json
+
 # Output of 'npm pack'
 *.tgz
 
