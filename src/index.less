@@ -1,3 +1,5 @@
+@import './variables.less';
+
 :global {
   * {
     box-sizing: border-box;
@@ -6,8 +8,8 @@
   body {
     margin: 0;
     padding: 12px;
-    color: #666;
-    background: #ebecf0;
-    font-size: 14px;
+    color: @textColor;
+    background: @backgroundColor;
+    font-size: @fontSizeBase;
   }
 }
