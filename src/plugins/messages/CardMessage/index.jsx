@@ -1,22 +1,28 @@
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 
+import { getPluginClass } from '../../../im/plugin';
+
 import styles from './index.less';
 
 export default class CardMessage extends PureComponent {
   static propTypes = {
-    cardType: PropTypes.string
+    cardType: PropTypes.string.isRequired,
+    content: PropTypes.shape().isRequired
   }
 
-  static defaultProps = {
-    cardType: null
+  renderCard() {
+    const { cardType, content } = this.props;
+    const Card = getPluginClass('card', cardType);
+    return (
+      <Card {...content} />
+    );
   }
 
   render() {
-    const { cardType } = this.props;
     return (
       <div className={styles.container}>
-        {cardType}
+        {this.renderCard()}
       </div>
     );
   }
