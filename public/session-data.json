@@ -5,7 +5,10 @@
       "id": 1984030100001,
       "type": "text",
       "header": {
-        "from": "Henry",
+        "sender": {
+          "name": "Henry",
+          "avatarUrl": "https://avatars1.githubusercontent.com/u/1003147?s=40&v=4"
+        },
         "sentTime": 1513509380347
       },
       "body": {
@@ -16,19 +19,25 @@
       "id": 1984030100002,
       "type": "image",
       "header": {
-        "from": "Henry",
+        "sender": {
+          "name": "Henry",
+          "avatarUrl": "https://avatars1.githubusercontent.com/u/1003147?s=40&v=4"
+        },
         "sentTime": 1513509422555
       },
       "body": {
-        "imageUrl": "https://pic5.zhimg.com/v2-2650d71247f20abf3600247d58cc6b9e_r.jpg",
-        "thumbnailUrl": "https://pic5.zhimg.com/v2-2650d71247f20abf3600247d58cc6b9e_400x224.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
+        "thumbnailUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA8FBMVEX////kTSbxZSnr6+sAAADkSR7pdFzrWSjr7/DHx8fxYyX39/fkQxPwXBT4v63xXhnoq6D3rZXkPwTyc0Dq0Mzr8/TwVwDa2tpTU1PnmInlXDv97el7e3uoqKjlb1biOAAdHR1oaGjjQg+4uLiEhIQ2NjZwcHDtXijytKnnUyftlIPnaU32p4753tn1x7/98vDzhFzqfWfwpZf31M71l3josqnpxL7lVC/q3tvriHXze030vrTmYEH42dMqKir1w7rq19PqUxv4t6P5ybr0i2f2oITnkoLmiXiamppDQ0Ourq7zf1T1k3PqSwDnoZXsaUDC4HfnAAALJklEQVR4nO2dfVvaShOHgxCggC+NgkX6SKU9p1SLVKxSqlarp9qe4+n5/t/mIcSFJMwMO2R2iVz8/tJcNeFuwuZmZzY4Di8vcioH423jTbns8Le3OTzvov/8W3jPryfbd/3fX41/fcF8jckiSpj7OdnxbmjzEhGO/iDItyUlfKX28TO8dZkIc2+DXZQjG5eKMBfs4mCJCd9F97qEhKO/ebPUhL9iw8zzJnwNEObeluNbUkIIZXR7Kz9lcmZej7dBhG9exbeknVDlfyHCcMg9rAjNZ0UYyoow9+aP8N9+m7j30hDmwp+YcrvLSOi8m/x8EBKbJSIM/VxeUsLx7t466SP8I7sbJJuA0Pkz+Mn/JIwSvjoI56djNiFC4CXzCZ9+K1OE0fz53AhHO/zbWWJC/+P9r9EPS0tYVn+2tITO309jx/ISqqwIV4RCmczCvAFeMkIYfVEY4WT7iPAXQnjgmE32xTjjbZNNZfif7kZ2AewB2s3uCzjRna2yyiqrrLLKKqusssoqzySNo3yac9RITNhtumlOs5v8JDYzaU4zOaDjLhqCjCtAeJRmRPdIgPAk1YQnAoSHqSY8FCDsVRaNQaTSEyBstxaNQaTVFiA89haNQcQ7FiC8SjXhlQBhI823/GZyafO1bdEYRCSkzXFkr9IPhYT5EN6bJwHoiAJmCmsJ8z6yOxHCS9FbfmLCQmhn7qUIYT7FhHkRwod0EYbfh+6DCKGstokSikibtLYlJgzvTETaHOc6xYTXIoSnojdEUULvVISwk2LCjgihrLYlJYzc8GWkTVjbRAllpE14tk2UUGKmzc+eJGJSwojS7AkRimqbKKGMtDnOIE2EEWkbCBHWJbVNkrBSFyJsp5ZQRtoc50JS25IShvfVuhAiJLTNrXDzfZ2bEkooJG2UtrkPW9y0N7j5q4QSykgbpW2VrWqRmfLs48XyYzMEaETaiCJppV7MMsMnjJzDKKEUIE7oDqrmCbctEPZRwrwFwvXw2zCsNJm+GOE+JjXupQXCGkbo7osR4tpWMU/YjRAakTZK25rmR5oOSigmbdR8YvOLccLTdZRQZi7RD65t3o1xwrsIYfjgYtJGlYG9c+5lyia8RQlFCsBBcG1rnRkn/LiJEkpJG1UGrmwZJ/yMEooUgIOUBbWNTfgJVxr+vRUNOtLwtY39qnBpa8kBSmobm7AUJjQkbUT3Hl/b2IS4tEl07akQ3XumCbs4oUTXngrevddiArIJcWkT6dpTwbXNg7SN+ozPPfSVDWnjalvxrI6n95KXR3SWRlDauNpWvPeIubZNXoiZNjlpo7r3IG0r/iamkJPNl0YIJbr2VHjaVjwjppDlCAWljZxPBLSteG6K0NBcoh9c2x6mb4jFHaJqLEcoKW1E9x6obV9MEUakTaZrTwXt3oO1jehtECMU6tpTIbQN+PhUJEqqcoSS0kZ173nAKazuGSI00LWnwpttqxIricQIRaWN6t6DtK1KVP4TEYZ3JNS1p3KMEwLaVr23QCgqbVQZmKttcoRSBeAgDZQQ1jYbhJLSJqltSQgNShtVJGVqmxyhLCAhpkxtS0IYkTZZLaW07QjSNvOEwtJGde+5AGGxgq0uzxRKrOCEUl17Kvg9HCqSVi/3sPy3zUoE0aC0kWVgaLatioZ3WKIALCttVPces0jKmy/Fy6NiXXsq+KILZpGUR7iBF4BlllpMQmjbtUHCW7w8KittVBmYWSTlEf6wUQAOwtM2McJHvDwqLG1MbRMj/Gqhp00Fv+OfGCRcQwmlllpMgi66YBZJeYSRt6GRpRaToN17zCIpi7Bso2tPheje4wDyCBs2uvZUcG0Di6QyhFa69lS2hLSNRXhqT9rIMvAO54bIIiSkTbIAHERK21iEFqVNTttYhBaljSwDs7SNRfiIL7WQnUv0UyYWznBuiCzCf1Cl8QS79lTQsXSobfpLZniEeNeevLRR3XuXNzv66TSQQMdEpU20a08Fr5i5HiP/1pBAx7TTtacitFYWmS8tbQOHtCptjnMos5IUI/wEHJKQNsmuPRWhh7gghJufgUMS0iY9l+hH6CEuGOFH4JBWllpMIvTsPYRw/RY4JCFtsgXgIELP3sMI74BDEkstJLv2VISevYcRQiZtVdroh7iAVSYWYQ0yaWKphfhcoh+csJ/fnwomCBgh9JJtrI8NB3eaPFBjwsrAGCF0RFRphLv2VHBt6zPKwDBhqcQiNCJtVPeeB5WBWVcpKG3E+ljZrj0VfNFFEziFVeSzCELIkzbRpRaT8BZdYN17MKGGtBktAAchuveA2bYqclEjhExpk59L9INrWwvq3kNaUhFCUNpsrI8NR6Z7DyZMg7SRs22/AUJkkhwhhKTNyvrYcIgy8D1AiPQ2wISpkDbi2XvQWtniOfzPEULopODSJvWsvXgwwIy7D9zyb1iE0PHw9bFmpI3q3tuD+hPhi5pBiD62RbxrT4XZvccgLK0Bh7O0PjYcfNEFtFa2yhhLS/8Ah7MubdwycDXfbAH/JdOEpc1a7QdwuCt7XXsqPG3LVrPn9/0pykKMbr22/RGuBVqXtjm694rDD8JnA9erhChDhKX12trnO/TWZrFrT4WnbWPK4s7vvDemLIwvzfW/Nkg1IaRNvgAcZN4ycLE4vGDrl8EFWwguza+3M9XSagE4SJLuPZ/y+qHvVb7jb7xY7EsbU9vAt+XN2eGdrjXjXXumpI2ebdMgHFHqH20NlTYTBeAgEt17+lVuXGnku/ZUiEcma7djaBMS0ia91GISvAwMrZVNSGi5AByEuegiGSEhbfJdeyoSiy60CS0utZiE6N7TXnShTbgAaZtT2+YlfGlf2mhtq2oiahMuQNrIMnD//jyrBalHWL77EeazJW3k98q6reb+1k51JqUGYef2a219kyA0Bzjjm3Pdipd5OPtSLVKUMwgbd4+btdijk+LSZk5Lie690Kn0jn7vFPFTSRGeftwenrwpvDihia49FWLRReRUeifoqcQIGxufELo4oYGlFpNof3Pu8F25VwfHHoiwOxxXausYnR9L0uY494zetuGpbOW3buJjzxRh5+VX4uQBhAaljd+951aamYfrbPiCjRA2Nh5rwLgynfBOjc0l+pnnmy5iY8+EMBhXZtPFCY107anM2b03vGDdwdPYExA2bj/pnTyA0FABOEiCLyhTY89oXNmkx5UZhOakLWn3nj/2nPQ0xpWpmO/aU8EfmaxN+Z1LN01oEJB4xIl25nryh8Fn7cUzW9uMEEaUxqS0Ud179gjNdO2paGubLKGFrj0VvHvPJGHkbWhkqcUkyRddcAnfR7+I27C0SSy6YBG+/zC9A6PSJrHoQptw6uQ9xai0SSy60CNE6EaEZrr2VJIvuphN+L5A7sCotEl8cy5NiF2aYUKDc4l+TI400LgyHbPSRnTvJSTUOHkqhgnR7r0khPp0Brv2VPLNSjLGOOGMcSXOV2maKwA/5bS3B/arzUXIOXmjedj9tskP+ON0rwfu3KeyMOfJazX7dXNVNSCdraOmN4+kFpjjSuZpEv3C7G0QzvHhdOuhBqHeTWGM5zWPemY1hkyjfdLyEo49BJ0/oXxs+A6vkaveZaKxB6Pzmnk744pOutcP8489EJ4/uWp1XNFJp52fb+yJ01W8ymLGFZ2c1ucYeyJ4/riSmksTTuPipDLf2DO8NDOHxwaerGMgV73hzZIF6d/y8u20XppguseHru4Fm85xRSeNdqiDHT15TXdwsfhb3vw5rROi/hzGFZ10LwbAqXxO44pOOpGxZ6TSz2tc0Un5SdSHJ++y9yzHFZ00Lgb9Q8sq/X89z7xPOazagAAAAABJRU5ErkJggg=="
       }
     },
     {
       "id": 1984030100003,
       "type": "card",
       "header": {
-        "from": "Henry",
+        "sender": {
+          "name": "Henry",
+          "avatarUrl": "https://avatars1.githubusercontent.com/u/1003147?s=460&v=4"
+        },
         "sentTime": 1513509528443
       },
       "body": {
@@ -36,7 +45,7 @@
         "content": {
           "title": "为什么我们要做三份 Webpack 配置文件",
           "description": "在知乎上我们常常会看到有同学发问：BAT 等大型网站的前端工程是如何组织管理的？这的确是一个可以发散的很广的 Q&A，我想如果要我回答这个问题，不如先从 Webpack 配置说起。",
-          "thumbnailUrl": "https://pic4.zhimg.com/v2-428e325a87d01d02923ad2ed4c3e785a_400x224.jpg",
+          "thumbnailUrl": "http://www.icoolbox.com/images/jeasyui.png",
           "href": "https://zhuanlan.zhihu.com/p/29161762"
         }
       }
