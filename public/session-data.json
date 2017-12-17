@@ -12,7 +12,7 @@
         "sentTime": 1513509380347
       },
       "body": {
-        "text": "您好，欢迎关注前端零栈！"
+        "text": "您好，欢迎关注⎡前端零栈⎦！"
       }
     },
     {
@@ -47,6 +47,25 @@
           "description": "在知乎上我们常常会看到有同学发问：BAT 等大型网站的前端工程是如何组织管理的？这的确是一个可以发散的很广的 Q&A，我想如果要我回答这个问题，不如先从 Webpack 配置说起。",
           "thumbnailUrl": "http://www.icoolbox.com/images/jeasyui.png",
           "href": "https://zhuanlan.zhihu.com/p/29161762"
+        }
+      }
+    },
+    {
+      "id": 1984030100003,
+      "type": "card",
+      "header": {
+        "sender": {
+          "name": "Henry",
+          "avatarUrl": "https://avatars1.githubusercontent.com/u/1003147?s=460&v=4"
+        },
+        "sentTime": 1513509529241
+      },
+      "body": {
+        "cardType": "com.example.plugins.cards.LuckyMoneyCard",
+        "content": {
+          "title": "给读者的红包",
+          "total": 1.88,
+          "transactionId": 123456
         }
       }
     }
