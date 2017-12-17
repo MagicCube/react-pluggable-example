@@ -5,27 +5,22 @@ import styles from './index.less';
 
 export default class LuckyMoneyCard extends PureComponent {
   static propTypes = {
-    description: PropTypes.string.isRequired,
-    href: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    thumbnailUrl: PropTypes.string.isRequired,
+    total: PropTypes.number.isRequired,
   }
 
   render() {
     const {
-      description, href, title, thumbnailUrl
+      title, total
     } = this.props;
     return (
-      <a className={styles.container} href={href} target="_blank">
-        <div className={styles.title}>{title}</div>
+      <div className={styles.container}>
+        <div className={styles.icon} />
         <div className={styles.details}>
-          <div className={styles.description}>{description}</div>
-          <div
-            className={styles.thumbnail}
-            style={{ backgroundImage: `url(${thumbnailUrl})` }}
-          />
+          <div className={styles.title}>{title}</div>
+          <div className={styles.total}>{total} 元</div>
         </div>
-      </a>
+      </div>
     );
   }
 }
