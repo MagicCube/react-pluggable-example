@@ -1,3 +1,10 @@
+import 'axios';
+import 'babel-polyfill';
+import 'class-names';
+import 'prop-types';
 import 'react';
+import 'react-dom';
 import 'react-redux';
 import 'redux';
+import 'redux-actions';
+import 'redux-promise';
