@@ -2,7 +2,6 @@
   "name": "react-pluggable-example",
   "version": "1.0.0",
   "description": "An example to demonstrate how to implement simple pluggable mechanism in a React project.",
-  "main": "index.js",
   "scripts": {
     "start": "npm run dev",
     "dev": "webpack-dev-server --config webpack.dev.config.js"
