@@ -16,7 +16,10 @@ export default class PictureMessage extends PureComponent {
     const { thumbnailUrl } = this.props;
     return (
       <div className={styles.container}>
-        {thumbnailUrl}
+        <img
+          className={styles.image}
+          src={thumbnailUrl}
+        />
       </div>
     );
   }
