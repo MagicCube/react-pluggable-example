@@ -1,0 +1,37 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb-base",
+    "airbnb-base/rules/strict",
+    "airbnb/rules/react"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "comma-dangle": "off",
+    "global-require": "off",
+    "import/prefer-default-export": "off",
+    "react/prefer-stateless-function": "off",
+    "class-methods-use-this": "warn",
+    "max-len": "warn",
+    "no-unused-vars": "warn",
+    "no-use-before-define": "warn",
+    "react/forbid-prop-types": "warn",
+    "react/no-unused-prop-types": "warn",
+    "react/prop-types": "warn",
+    "react/self-closing-comp": "warn",
+    "no-console": [
+      "warn",
+      {
+        "allow": [
+          "info",
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "no-underscore-dangle": "off"
+  }
+}

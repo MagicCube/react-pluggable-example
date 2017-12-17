@@ -22,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/MagicCube/react-pluggable-example/issues"
   },
-  "homepage": "https://github.com/MagicCube/react-pluggable-example#readme"
+  "homepage": "https://github.com/MagicCube/react-pluggable-example#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^8.0.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  }
 }
