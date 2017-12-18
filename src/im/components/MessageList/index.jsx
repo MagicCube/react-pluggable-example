@@ -37,7 +37,7 @@ export default class MessageList extends PureComponent {
           <div className={styles.avatar} style={{ backgroundImage: `url(${sender.avatarUrl})` }} />
           <div className={styles.messageBox}>
             <div className={styles.senderName}>{sender.name}</div>
-            <Message messageId={message.id} {...message.body} />
+            <Message messageId={id} {...message.body} />
           </div>
         </li>
       );
