@@ -41,7 +41,7 @@
         "sentTime": 1513509528443
       },
       "body": {
-        "cardType": "com.example.plugins.cards.WebLinkCard",
+        "cardType": "com.example.WebLinkCard",
         "content": {
           "title": "为什么我们要做三份 Webpack 配置文件",
           "description": "在知乎上我们常常会看到有同学发问：BAT 等大型网站的前端工程是如何组织管理的？这的确是一个可以发散的很广的 Q&A，我想如果要我回答这个问题，不如先从 Webpack 配置说起。",
@@ -61,7 +61,7 @@
         "sentTime": 1513509529241
       },
       "body": {
-        "cardType": "com.example.plugins.cards.LuckyMoneyCard",
+        "cardType": "com.example.LuckyMoneyCard",
         "content": {
           "title": "给读者的红包",
           "total": 1.88,
